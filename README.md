@@ -29,6 +29,11 @@ Each pixel of the image is considered as a feature. With each feature as an axis
 
 Sklearn library is used for this model. After fitting the model on the training data, it provides the option of getting the coefficients (weights) assigned to each feature/pixel. The linear composite of these weights will form the axis which separates the two classes. By visualizing these coefficients as a heatmap, we can observe how the model sees the images.
 
+
+![Screenshot 2023-10-22 182837](https://github.com/akshayravi13/Goal-Line-Detection-Football/assets/85955796/db77f653-f525-4428-93c0-d33d67f9125e)
+
+
+
 The LDA model is generally able to see the placement where the football and goal-line are present. The accuracy of this model is 75%, but that isn’t the concern of this project.
 
 ### Artificial Neural Network
