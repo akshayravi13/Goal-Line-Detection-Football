@@ -68,3 +68,13 @@ This is a technique which calculates the gradient of the output with respect to 
 After finding the gradients, we average them which gives us a weight for different locations on the feature map. We then take the linear combination of these weights with the output. The end product is a heatmap showing the most important features seen by the CNN for our task of goal line prediction.
 
 
+![Screenshot 2023-10-22 183309](https://github.com/akshayravi13/Goal-Line-Detection-Football/assets/85955796/daada758-71e4-4631-be72-56c8a7012cf9)
+
+
+This project helps us to understand how different models can be used for binary image classification for predicting goal or not goal. 
+
+We see that LDA does a decent, sub-par job at dealing with this high dimensional image data, while ANN struggles with huge number of parameters and no good feature extraction
+
+CNNs are the best for this task as they have the best output. They can specifically find patterns like edges, shapes in the input image data. 
+
+
