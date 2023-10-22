@@ -6,6 +6,10 @@ The goal of this project is to use models such as Linear Discriminant Analysis, 
 
 The models will be used to find whether a football near a goal line is in goal or not.
 
+
+![Screenshot 2023-10-22 182700](https://github.com/akshayravi13/Goal-Line-Detection-Football/assets/85955796/6f0875cd-4c3a-49be-851a-41674a49037b)
+
+
 The dataset contains 40 images which were clicked manually.
 
 There are 20 cases of goal and 20 cases of no goal.
