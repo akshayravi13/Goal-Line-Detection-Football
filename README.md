@@ -19,6 +19,7 @@ The models read the data as flattened numpy arrays.
 
 ### Linear Discriminant Analysis
 LDA can classify the given data into two classes by finding an axis to which maximizes separability between classes and minimizes variance within a class.
+Find out more about LDA [here](https://www.youtube.com/watch?v=azXCzI57Yfc&t=536s) 
 
 Each pixel of the image is considered as a feature. With each feature as an axis, LDA will project these features onto a single axis which will help to separate the two classes in the best way. The great thing about LDA is that it brings the information from these thousands of features onto a single axis and hence it’s a dimensionality reduction technique as well as a supervised learning method for classification tasks.
 
@@ -28,10 +29,14 @@ The LDA model is generally able to see the placement where the football and goal
 
 ### Artificial Neural Network
 
-The ANN is created with 4 dense layers and the last layer has 1 neuron with sigmoid activation for the purpose of binary classification.
+The ANN is created with 4 dense layers and the last layer has 1 neuron with sigmoid activation for the purpose of binary classification. If you are not familiar with ANN architecture, find out more about it [here](https://www.youtube.com/watch?v=CqOfi41LfDw&t=6s)
 
 The input features are very high since they are the flattened image array. There are 256*256 = 65536 features which means the number of parameters in the ANN is also very high.
+
+
 ![Screenshot 2023-10-22 173006](https://github.com/akshayravi13/Goal-Line-Detection-Football/assets/85955796/e8306b56-4c2b-450e-84b9-94482fe08b99)
+
+
 
 The ANN model is giving an accuracy of only 50%, which means its guessing the same output for all images.
 
